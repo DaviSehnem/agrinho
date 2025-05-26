@@ -1,105 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Exemplo de Site</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexão Campo-Cidade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="container">
+        <div class="logo-area">
+            <span>[Seu Logo Aqui]</span>
+        </div>
+        <div class="slogan-area">
+            <span>Comunicação campo cidade - Uma ponte entre dois mundos!</span>
+        </div>
+        <div class="menu-area">
+            <button id="menu-button">Menu</button>
+        </div>
 
-  <header>
-    <div class="logo-titulo">
-      <img src="logo.png" alt="Logo do site" />
-      <h1>Conexão Campo e cidade</h1>
+        <section class="icones-topo">
+            <div class="icone campo-icone"><i class="fas fa-tractor"></i></div>
+            <div class="icone comida-icone"><i class="fas fa-utensils"></i></div>
+            <div class="icone cidade-icone"><i class="fas fa-city"></i></div>
+        </section>
+
+        <section id="historias" class="section">
+            <h2>Histórias de Conexão</h2>
+            <p>Descubra emocionantes narrativas de pessoas e iniciativas que fazem a ligação entre o ambiente rural e o urbano, mostrando como essa interação enriquece ambos os lados.</p>
+            <div class="historia-item">
+                <h3>O Chef que voltou à Roça</h3>
+                <p>Conheça a história de um renomado chef de cidade grande que trocou os restaurantes sofisticados pela tranquilidade do campo para criar pratos inovadores com ingredientes frescos e locais.</p>
+                <a href="#">Leia mais</a>
+            </div>
+            <div class="historia-item">
+                <h3>A Feira que Uniu Gerações</h3>
+                <p>A inspiradora jornada de uma feira agroecológica que se tornou ponto de encontro entre produtores rurais e moradores da cidade, fortalecendo laços e promovendo a alimentação saudável.</p>
+                <a href="#">Leia mais</a>
+            </div>
+            <div class="historia-item">
+                <h3>Da Horta Comunitária ao Prato da Cidade</h3>
+                <p>A inspiradora história de um projeto que transformou um terreno abandonado em uma vibrante horta comunitária, fornecendo alimentos frescos para restaurantes locais.</p>
+                <a href="#">Leia mais</a>
+            </div>
+            <div class="historia-item">
+                <h3>O Artesão Urbano com Alma Rural</h3>
+                <p>Um artista da cidade que encontra sua inspiração nas formas e cores da natureza do campo, criando peças únicas que celebram essa união.</p>
+                <a href="#">Leia mais</a>
+            </div>
+            </section>
+
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Acompanhe nossos artigos e reflexões sobre temas como agricultura urbana, turismo rural, gastronomia que une ingredientes do campo e da cidade, e muito mais.</p>
+            <div class="blog-item">
+                <h3>Agricultura Urbana: O Verde que Floresce no Asfalto</h3>
+                <p>Explore as iniciativas de cultivo em ambientes urbanos e seus benefícios para a comunidade e o meio ambiente.</p>
+                <a href="#">Ver post</a>
+            </div>
+            <div class="blog-item">
+                <h3>Turismo Rural: Uma Escapada para a Alma</h3>
+                <p>Descubra o charme e as oportunidades do turismo em áreas rurais, conectando visitantes com a natureza e a cultura local.</p>
+                <a href="#">Ver post</a>
+            </div>
+            <div class="blog-item">
+                <h3>Do Campo à Mesa: A Revolução dos Ingredientes Locais</h3>
+                <p>Reflexões sobre a importância de valorizar os produtos regionais e como eles transformam a gastronomia.</p>
+                <a href="#">Ver post</a>
+            </div>
+            </section>
+
+        <section id="cultura" class="section">
+            <h2>Cultura e Sabores</h2>
+            <p>Explore a riqueza cultural que emerge da união do campo e da cidade. Conheça os sabores autênticos, as tradições, o artesanato e as manifestações artísticas que celebram essa conexão.</p>
+            <div class="cultura-item">
+                <h3>Artesanato que Conta Histórias</h3>
+                <p>Descubra peças únicas criadas por artistas que se inspiram na paisagem rural e na vida urbana, unindo elementos de ambos os mundos.</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="cultura-item">
+                <h3>Sabores da Terra e da Cidade</h3>
+                <p>Explore receitas tradicionais e contemporâneas que combinam ingredientes frescos do campo com a sofisticação da culinária urbana.</p>
+                <a href="#">Descubra</a>
+            </div>
+        </section>
+
+        <section id="contato" class="section contato-form">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco! Envie suas dúvidas, sugestões ou compartilhe sua própria história de conexão entre o campo e a cidade.</p>
+            <input type="text" placeholder="Seu Nome">
+            <input type="text" placeholder="Seu Email">
+            <textarea placeholder="Sua Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </section>
+
+        <aside class="destaque">
+            <h2>Destaque</h2>
+            <img src="https://via.placeholder.com/150" alt="Imagem Destaque">
+            <h3>Projeto "Mãos na Terra, Sabores na Mesa"</h3>
+            <p>Conheça um projeto inspirador que conecta pequenos agricultores com restaurantes da cidade, promovendo a agricultura familiar e o acesso a alimentos frescos e de qualidade.</p>
+            <a href="#">Saiba mais sobre o projeto</a>
+        </aside>
+
+        <footer>
+            <p>&copy; 2025 Conexão Campo-Cidade</p>
+        </footer>
+
+        <button id="accessibility-button" aria-label="Opções de acessibilidade"><i class="fas fa-universal-access"></i></button>
+        <div id="accessibility-menu" class="accessibility-menu">
+            <button id="increase-font">A+</button>
+            <button id="decrease-font">A-</button>
+            <button id="toggle-contrast">Alto Contraste</button>
+        </div>
     </div>
-    <nav>
-      <ul class="menu">
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#galeria">Galeria</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section class="titulo">
-    <h2>Bem-vindo ao nosso mundo!</h2>
-  </section>
-
-  <section class="banner-principal">
-    <img src="banner.png" alt="Banner principal" />
-  </section>
-
-  <section class="conteudo invertido">
-    <div class="texto">
-      <h3>Seção 1</h3>
-      <p>Descrição da seção 1.</p>
-    </div>
-    <img src="https://via.placeholder.com/400x250" alt="Imagem seção 1" />
-  </section>
-
-  <section class="conteudo">
-    <img src="https://via.placeholder.com/400x250" alt="Imagem seção 2" />
-    <div class="texto">
-      <h3>Seção 2</h3>
-      <p>Descrição da seção 2.</p>
-    </div>
-  </section>
-
-  <section class="conteudo invertido">
-    <div class="texto">
-      <h3>Seção 3</h3>
-      <p>Descrição da seção 3.</p>
-    </div>
-    <img src="https://via.placeholder.com/400x250" alt="Imagem seção 3" />
-  </section>
-
-  <section class="galeria">
-    <h2>Galeria de Imagens</h2>
-    <div class="grid-galeria">
-      <img src="https://via.placeholder.com/200" alt="Imagem galeria 1" />
-      <img src="https://via.placeholder.com/200" alt="Imagem galeria 2" />
-      <img src="https://via.placeholder.com/200" alt="Imagem galeria 3" />
-      <img src="https://via.placeholder.com/200" alt="Imagem galeria 4" />
-      <img src="https://via.placeholder.com/200" alt="Imagem galeria 5" />
-      <img src="https://via.placeholder.com/200" alt="Imagem galeria 6" />
-    </div>
-  </section>
-
-  <section class="seis-imagens">
-    <h2>Destaques</h2>
-    <div class="grid-destaques">
-      <div class="item">
-        <img src="https://via.placeholder.com/150" alt="Destaque 1" />
-        <p>Título 1</p>
-      </div>
-      <div class="item">
-        <img src="https://via.placeholder.com/150" alt="Destaque 2" />
-        <p>Título 2</p>
-      </div>
-      <div class="item">
-        <img src="https://via.placeholder.com/150" alt="Destaque 3" />
-        <p>Título 3</p>
-      </div>
-      <div class="item">
-        <img src="https://via.placeholder.com/150" alt="Destaque 4" />
-        <p>Título 4</p>
-      </div>
-      <div class="item">
-        <img src="https://via.placeholder.com/150" alt="Destaque 5" />
-        <p>Título 5</p>
-      </div>
-      <div class="item">
-        <img src="https://via.placeholder.com/150" alt="Destaque 6" />
-        <p>Título 6</p>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
-  </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
